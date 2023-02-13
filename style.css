@@ -1,0 +1,43 @@
+body {
+    padding-top: 20px;
+  }
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+header p {
+  margin-top: 30px;
+  text-align: center;
+  color: orange;
+  font-size: 20px;
+}
+header i {
+    color: black;
+}
+.row .col:nth-child(2) .row:first-child .col {
+  text-align: left;
+}
+.row {
+  margin-bottom: 20px;
+}
+button {
+  background-color: lightblue;
+  border-radius: 50px;
+  width: 70px;
+  height: 30px;
+  float: left;
+  border: 2px solid black;
+}
+.row img {
+  display: inline-block;
+  padding-left: 10px;
+  vertical-align: middle;
+  float: right;
+  height: 80px;
+  width: 80px;
+}
