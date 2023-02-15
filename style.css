@@ -1,5 +1,7 @@
 body {
-    padding-top: 20px;
+    padding: 20px 10px;
+    font-size: large;
+
   }
 header {
   display: flex;
@@ -22,22 +24,53 @@ header i {
 .row .col:nth-child(2) .row:first-child .col {
   text-align: left;
 }
-.row {
-  margin-bottom: 20px;
+.row .col:nth-child(3) {
+  text-align: right;
+}
+.main {
+  margin-bottom: 40px;
 }
 button {
-  background-color: lightblue;
   border-radius: 50px;
-  width: 70px;
-  height: 30px;
-  float: left;
   border: 2px solid black;
+  font-size: medium;
+  text-align: center;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+}
+
+.button1 {
+  background-color: lightblue;
+  width: 70px;
+  float: right;
+}
+.button2 {
+  background-color: lightgray;
+  width: 80px;
+  float: left;
+}
+.button3 {
+  background-color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  line-height: 10px;
 }
 .row img {
   display: inline-block;
-  padding-left: 10px;
   vertical-align: middle;
   float: right;
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
+}
+
+.price {
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+.subtotal {
+  text-align: right;
 }
