@@ -22,7 +22,7 @@
         
     <div class = "container">
       
-      <div class="row">
+      <div class="row main">
         <div class="col">
           <img src="macncheese.png" alt="macncheese image"/>
         </div>
@@ -32,18 +32,23 @@
               mac & cheese
             </div>
           </div>
-          <div class="row">
+        </div>
+        <div class="col-3">
+          <div class="row price">
             <div class="col">
-              <button type="button">order</button>
+              $5
+            </div>
+          </div><div class="row">
+            <div class="col">
+              <button class="button3" type="button">-</button>
+              <span id="value">0</span>
+              <button class="button3" type="button">+</button>
             </div>
           </div>
         </div>
-        <div class="col-3">
-          $5
-        </div>
       </div>
       
-      <div class="row">
+      <div class="row main">
         <div class="col">
           <img src="pasta.png" alt="pasta image"/>
         </div>
@@ -53,18 +58,23 @@
               pasta
             </div>
           </div>
-          <div class="row">
+        </div>
+        <div class="col-3">
+          <div class="row price">
             <div class="col">
-              <button type="button">order</button>
+              $8
+            </div>
+          </div><div class="row">
+            <div class="col">
+              <button class="button3" type="button">-</button>
+              <span id="value">0</span>
+              <button class="button3" type="button">+</button>
             </div>
           </div>
         </div>
-        <div class="col-3">
-          $8
-        </div>
       </div>
       
-      <div class="row">
+      <div class="row main">
         <div class="col">
           <img src="tacos.png" alt="tacos image"/>
         </div>
@@ -74,18 +84,23 @@
               tacos
             </div>
           </div>
-          <div class="row">
+        </div>
+        <div class="col-3">
+          <div class="row price">
             <div class="col">
-              <button type="button">order</button>
+              $8
+            </div>
+          </div><div class="row">
+            <div class="col">
+              <button class="button3" type="button">-</button>
+              <span id="value">0</span>
+              <button class="button3" type="button">+</button>
             </div>
           </div>
         </div>
-        <div class="col-3">
-          $8
-        </div>
       </div>
           
-      <div class="row">
+      <div class="row main">
         <div class="col">
           <img src="enchiladas.png" alt="enchiladas image"/>
         </div>
@@ -95,14 +110,32 @@
               enchilada
             </div>
           </div>
-          <div class="row">
+        </div>
+        <div class="col-3">
+          <div class="row price">
             <div class="col">
-              <button type="button">order</button>
+              $10
+            </div>
+          </div><div class="row">
+            <div class="col">
+              <button class="button3" type="button">-</button>
+              <span id="value">0</span>
+              <button class="button3" type="button">+</button>
             </div>
           </div>
         </div>
-        <div class="col-3">
-          $10
+      </div>
+
+      <div class="row">
+        <div class="col subtotal">
+          Subtotal
+        </div>
+        <div class="col">
+          <button class="button1" type="button">Order</button>
+          <span id="value">0</span>
+        </div>
+        <div class="col">
+          <button class="button2" type="button">Clear All</button>
         </div>
       </div>
           
@@ -110,3 +143,4 @@
   <script src="script.js"></script>  
   </body>
 </html>
+
